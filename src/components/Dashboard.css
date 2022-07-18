@@ -1,0 +1,33 @@
+.Dashboard{
+  height:93vh; 
+  width:90vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.Search{
+  border:1px solid grey;
+  height:4vh;
+  width:30vw;
+  border-radius: 0.3em;
+  display:flex;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.Table{
+  height:78vh;
+  width: 65%;
+  overflow-y: hidden;
+  margin-left: 2rem;
+}
+.Input{
+  border: none;
+  width:20vw;
+  height:3vh;
+}
+
+Input:focus{
+  outline: none;
+}
